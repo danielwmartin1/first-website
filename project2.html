@@ -100,7 +100,10 @@
           class="col-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
           <img class="footer-image" height="75" src="happycoupleconstruction.jpg" alt="pic">
         </a>
-        <p class="col-4 mb-0 px-1 footer-text">© Pro1Construction</p>
+        <p class="col-4 mb-0 px-1 footer-text">© Pro1 Construction <span id="year"></span></p>
+        <script>
+          document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
       </footer>
     </div>
 
