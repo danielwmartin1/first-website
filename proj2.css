@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@media (max-width: 576px) {
+  footer {
+    flex-direction: column;
+  }
+  .footer-brand {
+    margin: 1rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.8rem !important;
+  color: rgba(255, 255, 255, 0.744);
+}
+
+.home-text {
+  margin: auto;
+  color: white !important;
+}
+
+.ci {
+  height: 50vw !important;
+}
+
+.nav-img {
+  height: 40px;
+  width: 40px;
+  margin: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px !important;
+  font-weight: 500;
+	-webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: rgba(1, 26, 255, 0.737);
+  color: #ffc107 !important;
+}
+
+.nav-item {
+  text-align: center;
+  text-justify: center;
+}
+
+.nav-item:hover {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.navbar-nav {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.dropdown-item {
+  font-size: 1rem;
+}
+
+.dropdown-item:hover {
+  font-size: 1.2rem;
+  font-style: italic;
+  background-color: #0d6efd !important;
+}
+
+.contact-img {
+  height: 25px;
+  width: 25px;
+}
+
+.card-header, .card-title {
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+.card-header, .card-footer {
+  background-color: rgb(88, 15, 15) !important;
+}
+
+.card-text, .card-body, .card-footer {
+  font-family: 'Courgette', cursive;
+}
+
+
+h1, h2, h3, .card-title {
+  text-align: center !important;
+  font-family: 'Courgette', cursive !important;
+  text-decoration: none !important;
+  color: #ffc107 !important;
+  font-weight: 500;
+	-webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: rgba(1, 26, 255, 0.737);
+}
+
+pre {
+  color: white;
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.5rem;
+}
+
+
+.card-title, .card-footer, .card-header, .blockquote-footer {
+  text-align: center;
+  justify-content: center;
+}
+
+cite {
+  color: #ffffffa6;
+}
+
+.about-img {
+  height: 27.5vw;
+}
+
+.gallery-header {
+  margin-top: 1rem;
+}
+
+.blockquote-footer {
+  text-indent: 40px;
+}
+
+.footer-text {
+  color: #ffffffa6 !important;
+}
+
+.footer-image {
+  border-radius: 50%;
+}
