@@ -34,6 +34,10 @@ footer {
   height: 50vw !important;
 }
 
+.container-fluid {
+  margin-top: 2rem;
+}
+
 .nav-img {
   height: 40px;
   width: 40px;
