@@ -8,10 +8,45 @@
 
 @media (max-width: 768px) {
   footer {
-    flex-direction: row;
+    flex-direction: column;
   }
   .footer-brand {
     margin: 1rem;
+  }
+  .nav-img {
+    height: 30px;
+    width: 30px;
+  }
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+  .nav-item:hover {
+    font-size: 1rem;
+  }
+  .dropdown-item:hover {
+    font-size: 1rem;
+  }
+  .about-img {
+    height: 40vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+  .nav-img {
+    height: 25px;
+    width: 25px;
+  }
+  .nav-item:hover {
+    font-size: 0.9rem;
+  }
+  .dropdown-item:hover {
+    font-size: 0.9rem;
+  }
+  .about-img {
+    height: 50vw;
   }
 }
 
@@ -55,7 +90,7 @@ footer {
   font-family: 'Great Vibes', cursive;
   font-size: 40px !important;
   font-weight: 500;
-	-webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-width: 0.25px;
   -webkit-text-stroke-color: rgba(1, 26, 255, 0.737);
   color: #ffc107 !important;
 }
@@ -111,7 +146,7 @@ h1, h2, h3, .card-title {
   text-decoration: none !important;
   color: #ffc107 !important;
   font-weight: 500;
-	-webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-width: 0.25px;
   -webkit-text-stroke-color: rgba(1, 26, 255, 0.737);
 }
 
