@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   footer {
     flex-direction: row;
   }
