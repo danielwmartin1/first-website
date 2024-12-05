@@ -163,6 +163,10 @@ cite {
   height: 100%;
 }
 
+.nav-link {
+  color: var(--text-color);
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
 
@@ -182,6 +186,9 @@ cite {
   }
   .about-img {
     height: 40vh;
+  }
+  footer {
+    flex-direction: row;
   }
 }
 
