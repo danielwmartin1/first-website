@@ -105,6 +105,20 @@ footer {
   background-color: #0d6efd;
 }
 
+.card, .card-body{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--text-color);
+  border: 2px solid aqua;
+  border-radius: 5px;
+  margin: 1rem;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
 /* Card Styles */
 .card-header, .card-title {
   font-family: var(--font-family-quaternary);
@@ -173,6 +187,30 @@ cite {
   padding: 0 !important;
 }
 
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 5px ridge aqua !important;
+  
+}
+
+div > footer {
+  border-top: 5px ridge aqua !important;
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -194,8 +232,9 @@ cite {
   .dropdown-item:hover {
     font-size: 1rem;
   }
-  .about-img {
-    height: 40vh;
+  .card, .card-body {
+    height: auto !important;
+    padding: 2rem;
   }
 }
 
@@ -211,7 +250,7 @@ cite {
   .dropdown-item:hover {
     font-size: 0.9rem;
   }
-  .about-img {
-    height: 50vh;
+  .card, .card-body {
+    padding: 1rem;
   }
 }
