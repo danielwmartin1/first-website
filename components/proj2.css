@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 @media (max-width: 768px) {
   footer {
@@ -20,14 +19,12 @@
   .navbar-brand {
     font-size: 30px !important;
   }
-  .nav-item:hover {
-    font-size: 1rem;
-  }
+  .nav-item:hover,
   .dropdown-item:hover {
     font-size: 1rem;
   }
   .about-img {
-    height: 40vw;
+    height: 40vh;
   }
 }
 
@@ -39,14 +36,12 @@
     height: 25px;
     width: 25px;
   }
-  .nav-item:hover {
-    font-size: 0.9rem;
-  }
+  .nav-item:hover,
   .dropdown-item:hover {
     font-size: 0.9rem;
   }
   .about-img {
-    height: 50vw;
+    height: 50vh;
   }
 }
 
@@ -62,6 +57,8 @@ footer {
   font-family: 'Roboto Slab', serif;
   font-size: 0.8rem !important;
   color: rgba(255, 255, 255, 0.744);
+  width: 100%;
+  position: relative;
 }
 
 .home-text {
@@ -75,6 +72,7 @@ footer {
 
 .container-fluid {
   margin-top: 2rem;
+  height: 100%;
 }
 
 .nav-img {
@@ -139,7 +137,6 @@ footer {
   font-family: 'Courgette', cursive;
 }
 
-
 h1, h2, h3, .card-title {
   text-align: center !important;
   font-family: 'Courgette', cursive !important;
@@ -158,7 +155,6 @@ pre {
 small {
   font-size: 0.5rem;
 }
-
 
 .card-title, .card-footer, .card-header, .blockquote-footer {
   text-align: center;
@@ -187,4 +183,20 @@ cite {
 
 .footer-image {
   border-radius: 50%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
