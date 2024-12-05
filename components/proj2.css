@@ -165,9 +165,7 @@ cite {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  footer {
-    flex-direction: column;
-  }
+
   .footer-brand {
     margin: 1rem;
   }
