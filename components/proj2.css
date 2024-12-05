@@ -26,6 +26,7 @@ html, body {
   margin: 0.5rem 0;
   display: flex;
   flex-direction: column;
+  height: 100vh!important;
 }
 
 body {
@@ -49,6 +50,7 @@ footer {
   width: 100%;
   position: relative;
   flex-wrap: nowrap;
+  text-align: center;
 }
 
 .footer-text {
