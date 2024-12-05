@@ -48,6 +48,7 @@ footer {
   color: var(--text-color);
   width: 100%;
   position: relative;
+  flex-wrap: nowrap;
 }
 
 .footer-text {
@@ -56,6 +57,8 @@ footer {
 
 .footer-image {
   border-radius: 50%;
+  height: 50px;
+  width: auto;
 }
 
 /* Navbar Styles */
@@ -71,8 +74,8 @@ footer {
 }
 
 .nav-img {
-  height: 40px;
-  width: 40px;
+  height: 50px!important;
+  width: auto !important;
   margin: 1rem;
   margin-bottom: 1.75rem;
 }
@@ -159,9 +162,16 @@ cite {
 
 /* Container Styles */
 .container-fluid {
-  margin-top: 2rem;
-  height: 100%;
+  padding: 0.5rem;
+  color: var(--text-color);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family-primary);
 }
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
