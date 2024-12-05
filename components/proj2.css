@@ -27,6 +27,7 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100vh!important;
+  background-color: #0d6efd;
 }
 
 body {
@@ -186,17 +187,7 @@ cite {
   align-items: center;
   font-family: var(--font-family-primary);
   width: 100vw;
-  padding: 0 !important;
-}
-
-.container-fluid {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  width: 100%;
-  padding-right: 1rem;
+  padding-right: 2rem;
   padding-left: 1rem;
 }
 
@@ -207,7 +198,7 @@ nav {
   align-items: center;
   width: 100%;
   border-bottom: 5px ridge aqua !important;
-  
+  background-color: rgba(1, 26, 255, 0.737);
 }
 
 div > footer {
