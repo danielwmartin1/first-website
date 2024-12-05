@@ -51,7 +51,7 @@ footer {
 }
 
 .footer-text {
-  color: var(--text-color);
+  color: var(--text-color)!important;
 }
 
 .footer-image {
@@ -163,13 +163,12 @@ cite {
   height: 100%;
 }
 
-.nav-link {
-  color: var(--text-color);
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
-
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
   .footer-brand {
     margin: 1rem;
   }
@@ -186,9 +185,6 @@ cite {
   }
   .about-img {
     height: 40vh;
-  }
-  footer {
-    flex-direction: row;
   }
 }
 
